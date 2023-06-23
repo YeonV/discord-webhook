@@ -142,7 +142,7 @@ export async function executeWebhook(): Promise<void> {
     webhookUrl = `${webhookUrl}?thread_id=${threadId}`
   }
   if (threadName !== '') {
-    webhookUrl = `${webhookUrl}?thread_ name=${threadName}`
+    webhookUrl = `${webhookUrl}?thread_name=${threadName}`
   }
 
   if (filename !== '') {
